@@ -5,9 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b76f2b0566.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header class="header">
+        <h1 class="title"> Calculator</h1>
+    </header>
+
+    <main class="main">
+        <div class="container">
+
+            <div class="screen"></div>
+
+            <div class="commands">
+                <button id="clear"> CLEAR</button>
+                <button id="delete"> <i class="fa-solid fa-delete-left"></i> </button>
+            </div>
+
+            <div class="grid-buttons">
+                <!--number-->
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button arith"><b>÷</b></button>
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button arith"><b>x</b></button>
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button arth"><b>-</b></button>
+                <button class="button"><b>.</b></button>
+                <button class="button">0</button>
+                <button class="button equal"><b>=</b></button>
+                <button class="button arth"><b>+</b></button>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
