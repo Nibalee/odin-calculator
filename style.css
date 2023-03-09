@@ -39,7 +39,18 @@ main{
     padding: 15px 25px;  
     background-color: #0E8388;
     border-radius: 8px;
-    box-shadow: 2px 2px 20px #CBE4DE
+    box-shadow: 2px 2px 20px #CBE4DE;
+    text-align: right;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.opt{
+    font-size: 15px;
+    height: 20px;
+}
+
+.rslt{
+    font-size: 20px;
 }
 
 .commands{
